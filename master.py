@@ -109,12 +109,9 @@ def main_menu(nombre,edad,genero):#size
 				if event.key==pygame.K_UP:
 					selected=songs[i+1]
 					pygame.draw.polygon(surface, red, [(410,213),(433,268),(385,268)])
-					
 					pygame.display.update()
 					time.sleep(0.2)
-					
 					print songs[i+1]
-					
 					i = i + 1
 				elif event.key==pygame.K_DOWN:
 					pygame.draw.polygon(surface, red, [(410,470),(433,416),(385,416)])
